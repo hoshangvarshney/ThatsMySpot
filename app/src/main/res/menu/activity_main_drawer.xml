@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/findRooms"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Find a Room" />
+        <item
+            android:id="@+id/pairRoom"
+            android:icon="@android:drawable/stat_sys_data_bluetooth"
+            android:title="Pair with Room" />
+
+    </group>
+
+    <item android:title="Make us popular!">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Invite Friends" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send us feedback" />
+        </menu>
+    </item>
+
+</menu>
